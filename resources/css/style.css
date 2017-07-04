@@ -17,6 +17,7 @@ header {
   align-items: center;
   padding-left: 30px;
   flex-grow: 1;
+  border: 1px solid black;
 }
 
 .logo span {
@@ -37,20 +38,135 @@ nav span a {
   color: black;
 }
 
+
+
 .container {
   display: flex;
   width: 100%;
   padding-top: 100px;
 }
 
-.column .large {
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
   width: 630px;
 }
 
-.column .medium {
+.column.medium {
   width: 300px;
 }
 
-.column .small {
+.column.small {
   width: 240px;
+}
+
+.narrative {
+  font-family: Georgia;
+  font-size: 15px;
+  color: black;
+  margin-top: 16px;
+}
+
+
+
+#tuna {
+
+}
+
+#fish_caption {
+  display: flex;
+  background-image: url("../images/img-story-main.png");
+  height: 300px;
+  margin-top: 0px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+#fish_caption span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+#stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+#orca {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#fall {
+  background-image: url("../images/img-story-2.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+#burger {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#camera {
+  background-image: url("../images/img-story-3.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+#fbi {
+
+}
+
+#cat {
+
+}
+
+#cat_caption {
+  background-image: url("../images/img-story-1.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+
+}
+
+#cookie {
+  display: block;
+}
+
+#cookie h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 41px;
+  text-align: center;
+}
+
+#cookie span{
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
